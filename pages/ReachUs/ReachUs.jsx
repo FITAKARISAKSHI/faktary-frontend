@@ -44,7 +44,8 @@ const ReachUs = () => {
 
     try {
       const res = await fetch(
-       "https://faktary-backend.onrender.com",
+             "https://faktary-backend-3.onrender.com/api/reachus",
+
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

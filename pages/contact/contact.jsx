@@ -40,7 +40,7 @@ const Contact = () => {
 
     try {
       const res = await fetch(
-        "https://faktary-backend.onrender.com/api/contact",
+       "https://faktary-backend-3.onrender.com/api/contact",
         {
           method: "POST",
           headers: {
